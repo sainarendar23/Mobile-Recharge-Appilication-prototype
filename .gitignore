@@ -1,0 +1,17 @@
+# Backend (Java/Spring)
+airjio/target/
+airjio/help.md
+airjio/.mvn/wrapper/maven-wrapper.jar
+airjio/**/*.class
+airjio/**/*.log
+
+# Frontend (Node)
+frontend-fin/frontend/node_modules/
+frontend-fin/frontend/dist/
+frontend-fin/frontend/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.class
