@@ -1,0 +1,10 @@
+.transaction-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+    border: 1px solid var(--red);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+}

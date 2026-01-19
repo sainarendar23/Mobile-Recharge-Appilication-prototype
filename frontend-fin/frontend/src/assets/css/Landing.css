@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100..800&display=swap');
+
+body {
+    font-family: "Anek Kannada", sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--red);
+}
+
+section {
+    min-height: 10vh;
+    margin-top: 5%;
+}
+
+.margin {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section .section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section-1 .imgfox {
+    position: relative;
+    top: 45px;
+    animation: fox 3s;
+}
+
+@keyframes fox {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+}
+
+section .section-1 .imgbox {
+    margin-bottom: 35px;
+    z-index: 2;
+}
+
+section .section-1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--lit-black);
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+section .section-1 h3 {
+    color: var(--grey);
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+/* Section-2 */
+
+section .section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5%;
+}
+
+section .section-2 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--red);
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+}
+
+section .section-2 h3 {
+    color: var(--grey);
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+section .overall-open-sauce-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+section .open-secret-sauce-container {
+    border: 1.5px solid var(--red);
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+section .open-secret-sauce-container .icon-container i {
+    font-size: 3rem;
+    color: var(--red);
+}
+
+section .open-secret-sauce-container h3 {
+    color: var(--lit-black);
+}
+
+section .open-secret-sauce-container p {
+    color: var(--grey);
+}
+
+/* Section 3 */
+
+section .section-3 {
+    display: flex;
+    margin-top: 10%;
+}
+
+section .section-3-left-side,
+section .section-3-right-side {
+    flex: 0 0 50%;
+}
+
+section .section-3-left-side h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--red);
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+section .section-3-left-side h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+section .section-3 .section-3-right-side img {
+    width: 400px;
+    height: auto;
+    margin-left: 25%;
+}
+
+
+/* Section 4 */
+
+section .section-4 {
+    margin-top: 5%;
+}
+
+section .section-4 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--red);
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+section .section-4 details {
+    padding: 8px;
+    cursor: pointer;
+}
+
+section .section-4 details summary {
+    font-size: 20px;
+    padding: 10px;
+}
+
+section .section-4 details p {
+    padding: 10px;
+    font-size: 18px;
+    color: var(--grey);
+}
+
+section .section-4 details ul li {
+    padding: 3px;
+    font-size: 18px;
+    margin-left: 5rem;
+}
+
+/* Section 5 */
+
+section .section-5 {
+    display: flex;
+    margin-top: 10%;
+}
+
+section .section-5-left-side,
+section .section-5-right-side {
+    flex: 0 0 50%;
+}
+
+section .section-5-right-side h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--red);
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+section .section-5-right-side h4 {
+    color: var(--grey);
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+section .section-5-right-side i {
+    color: var(--red);
+    margin-right: 12px;
+}
+
+section .section-5-right-side p {
+    display: flex;
+    color: var(--grey);
+    font-size: 17px;
+    padding: 1px;
+    margin-top: 2%;
+}
+
+section .section-5 .section-5-left-side img {
+    width: 300px;
+    height: auto;
+    margin-left: 20%;
+}
+
+@media(max-width:880px) {
+
+    section {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .margin {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    section .section-1 h1 {
+        color: var(--lit-black);
+        font-size: 35px;
+        text-transform: uppercase;
+        margin-top: 5rem;
+    }
+
+    section .section-1 h3 {
+        color: var(--grey);
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    section .section-1 .imgfox{
+       width: 220px;
+    }
+
+    section .section-1 .imgbox{
+        width: 350px;
+    }
+
+    section .overall-open-sauce-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    section .overall-open-sauce-container .open-secret-sauce-container {
+        margin-top: 5%;
+        width:95%;
+    }
+
+    section .section-3-left-side {
+        flex: 0 0 50%;
+        order: 2;
+    }
+
+    section .section-3-right-side {
+        flex: 0 0 50%;
+        order: 1;
+    }
+
+    section .section-3 {
+        flex: 0 0 100%;
+        flex-direction: column;
+    }
+
+    section .section-3 img{
+        flex: 0 0 100%;
+        flex-direction: column;
+        max-width: 270px;
+        max-height: auto;
+    }
+
+    section .section-5-left-side {
+        flex: 0 0 50%;
+        order: 1;
+    }
+
+    section .section-5-right-side {
+        flex: 0 0 50%;
+        order: 2;
+    }
+
+
+    section .section-5 {
+        flex: 0 0 100%;
+        flex-direction: column;
+    }
+}
+
+
+html{
+    scroll-behavior:smooth ;
+}

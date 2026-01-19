@@ -1,0 +1,140 @@
+.overall-payment-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--red);
+}
+
+.overall-payment-container-1{
+    flex: 0 0 60%;
+}
+
+.overall-payment-container-2{
+    flex: 0 0 40%;
+}
+
+.overall-payment-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.overall-payment-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+}
+
+.overall-payment-container-1 i{
+    color: var(--white);
+    font-size: 70px;
+    margin-bottom: 25px;
+    animation: rotate-dollar 5s infinite;
+}
+
+@keyframes rotate-dollar{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.overall-payment-container-1 h1{
+    font-size: 35px;
+    text-align: center;
+    color: var(--white);
+}
+
+.overall-payment-container-1 p{
+    color: var(--white);
+    text-align: center;
+}
+
+
+.payment-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-container h2{
+    font-size: 27px;
+    color: var(--lit-black);
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.payment-container p{
+    color: var(--lit-black);
+    padding: 3px;
+}
+
+.p-container-bottom{
+    margin-bottom: 15px;
+}
+
+.payment-container input{
+    padding: 10px;
+    margin-bottom: 25px;
+    outline: none;
+    /* border: none; */
+}
+
+.payment-container button{
+    background-color: var(--red-hover);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--red);
+    color: var(--white);
+    cursor: pointer;
+    width: 120px;
+}
+
+.payment-container button:hover{
+    border-radius: 0px;
+}
+
+
+@media(max-width:977px)
+{
+    .overall-payment-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .overall-payment-container-1{
+        flex: 0 0 100%;
+        order: 1;
+    }
+    
+    .overall-payment-container-2{
+        flex: 0 0 100%;
+        order: 2;
+    }   
+}
+
+@media(max-width:691px)
+{
+    .overall-payment-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10%;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: var(--red);
+        margin-top: 20%;
+    }
+}

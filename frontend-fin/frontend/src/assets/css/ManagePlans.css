@@ -1,0 +1,50 @@
+.manage-plans-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.mp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+    background-color: var(--red);
+    padding: 2%;
+}
+
+.manage-plans-container input,textarea{
+    border-radius: 15px;
+    border: 2px solid var(--red);
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 10px;
+    resize: none;
+}
+
+
+.manage-plans-container h1{
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.manage-plans-container button{
+    padding: 10px;
+    width: 100px;
+    background-color: var(--red-hover);
+    color: var(--white);
+    border: var(--lit-black);
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.manage-plans-container button:hover{
+    border-radius: 0px;
+}
